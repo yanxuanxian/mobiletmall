@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="css/index.css">
+    <title>天猫商城</title>
+</head>
+<body>
+<!-- 搜索条开始 -->
+<div class="search-box">
+    <div class="iconfont icon-mulu" id="btn"></div>
+    <div class="search">
+        <input type="text" placeholder="搜索 商店/店铺" id="search">
+        <input type="icon" id="icon">
+    </div>
+    <a href="javascript:;" class="login">登录</a>
+</div>
+<!-- 搜索条结束 -->
+<!-- 头部轮播开始 -->
+<div class="swiper-container" id="host-banner">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="javascript:;"><img src="img/1.webp" alt=""></a></div>
+        <div class="swiper-slide"><a href="javascript:;"><img src="img/2.webp" alt=""></a></div>
+        <div class="swiper-slide"><a href="javascript:;"><img src="img/3.webp" alt=""></a></div>
+        <div class="swiper-slide"><a href="javascript:;"><img src="img/4.webp" alt=""></a></div>
+        <div class="swiper-slide"><a href="javascript:;"><img src="img/5.webp" alt=""></a></div>
+        <div class="swiper-slide"><a href="javascript:;"><img src="img/6.webp" alt=""></a></div>
+        <div class="swiper-slide"><a href="javascript:;"><img src="img/7.webp" alt=""></a></div>
+        <div class="swiper-slide"><a href="javascript:;"><img src="img/8.webp" alt=""></a></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination" id='host-banner-list'></div>
+</div>
+<!-- 头部轮播结束 -->
+<!-- 分类搜索开始 -->
+<ul class="type-box">
+    <li class="type"><img src="img/fenlei1.webp" alt=""><a href="javascript:;">积分乐园</a></li>
+    <li class="type"><img src="img/fenlei2.webp" alt=""><a href="javascript:;">充值</a></li>
+    <li class="type"><img src="img/fenlei3.webp" alt=""><a href="javascript:;">天猫国际</a></li>
+    <li class="type"><img src="img/fenlei4.webp" alt=""><a href="javascript:;">聚划算</a></li>
+    <li class="type"><img src="img/fenlei5.webp" alt=""><a href="javascript:;">天猫超市</a></li>
+    <li class="type"><img src="img/fenlei6.webp" alt=""><a href="javascript:;">免费试用</a></li>
+    <li class="type"><img src="img/fenlei7.webp" alt=""><a href="javascript:;">尤物</a></li>
+    <li class="type"><img src="img/fenlei8.webp" alt=""><a href="javascript:;">粉丝趴</a></li>
+    <li class="type"><img src="img/fenlei9.webp" alt=""><a href="javascript:;">领钱了</a></li>
+    <li class="type"><img src="img/fenlei10.webp" alt=""><a href="javascript:;">分类</a></li>
+</ul>
+<!-- 分类搜索结束 -->
+<!-- 天猫热点开始 -->
+<div class="hot-box">
+    <div class="hot-logo"><img src="img/hot.webp" alt=""></div>
+    <div class="horn"><img src="img/horn.webp" alt=""></div>
+    <div class="swiper-container" id="brand">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="javascript:;">动动手指购遍全世界~进口商品秒杀必抢</a>
+                <a href="javascript:;" class="title">Fissler精致系列三件套8.8疯抢中</a>
+            </div>
+            <div class="swiper-slide">
+                <a href="javascript:;">天猫早市，每天都给你不一样的新鲜~</a>
+                <a href="javascript:;" class="title">买牛排抢100元双红包+大闸蟹新鲜上市</a>
+            </div>
+            <div class="swiper-slide">
+                <a href="javascript:;">天猫超市携手高露洁大促，守护你的笑容</a>
+                <a href="javascript:;" class="title">3件7折，5件5折+领10元优惠券</a>
+            </div>
+            <div class="swiper-slide">
+                <a href="javascript:;">moco周年店庆盛典，型格尖货2折起</a>
+                <a href="javascript:;" class="title">聚划算300款直降+全场2折起</a>
+            </div>
+            <div class="swiper-slide">
+                <a href="javascript:;">一指美拍十级美颜，华为nova新上市</a>
+                <a href="javascript:;" class="title">0元预约+买就赠移动电源</a>
+            </div>
+            <div class="swiper-slide">
+                <a href="javascript:;">江南布衣限时特卖，给你不一样的腔调~</a>
+                <a href="javascript:;" class="title">全场买259立减30+特卖低至1折</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 天猫热点结束 -->
+<!-- 每日推荐开始 -->
+<div class="swiper-container" id="recommend" class="lunbolf">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="javascript:;"><img src="img/tuijian1.webp" alt=""></a></div>
+        <div class="swiper-slide"><a href="javascript:;"><img src="img/tuijian2.webp" alt=""></a></div>
+        <div class="swiper-slide"><a href="javascript:;"><img src="img/tuijian3.webp" alt=""></a></div>
+    </div>
+</div>
+<!-- 每日推荐结束 -->
+<!-- 必抢开始 -->
+<div class="floor-title">
+    <span class="left-line"></span>
+    <img src="img/biqiang.webp" alt="">
+    <span class="font">必抢</span>
+    <span class="right-line"></span>
+</div>
+<ul class="biqiang">
+    <li>
+        <a href="javascript:;">
+            <div class="title">今日必抢</div>
+            <img src="img/biqiang1.webp" alt="">
+            <span class="now">￥48</span>
+            <span class="old">￥199</span>
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">聚超值</div>
+            <img src="img/biqiang2.webp" alt="">
+            <span class="now">￥29</span>
+            <span class="old">￥188</span>
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">进口必抢</div>
+            <img src="img/biqiang3.webp" alt="">
+            <span class="now">￥124</span>
+            <span class="old">￥299</span>
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">型男咖</div>
+            <img src="img/biqiang4.webp" alt="">
+            <span class="now">￥19</span>
+            <span class="old">￥80</span>
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">环球购</div>
+            <img src="img/biqiang5.webp" alt="">
+            <span class="now">￥174</span>
+            <span class="old">￥218</span>
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">爱囤货</div>
+            <img src="img/biqiang6.webp" alt="">
+            <span class="now">￥38</span>
+            <span class="old">￥91</span>
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">女神范</div>
+            <img src="img/biqiang7.webp" alt="">
+            <span class="now">￥14</span>
+            <span class="old">￥29</span>
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">翻倍减</div>
+            <img src="img/biqiang8.webp" alt="">
+            <span class="now">￥28</span>
+            <span class="old">￥98</span>
+        </a>
+    </li>
+</ul>
+<!-- 必抢结束 -->
+<!-- 品牌特卖开始 -->
+<div class="floor-title" id="temai">
+    <div class="left-line"></div>
+    <img src="img/temai.webp" alt="">
+    <span class="font">品牌特卖</span>
+    <div class="right-line"></div>
+</div>
+<ul class="temai">
+    <li><a href="javascript:;"><img src="img/temai1.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/temai2.webp" alt=""></a></li>
+</ul>
+<!-- 品牌特卖结束 -->
+<!-- 品牌资讯开始 -->
+<div class="floor-title" id="zixun">
+    <div class="left-line"></div>
+    <img src="img/zixun.webp" alt="">
+    <span>品牌资讯</span>
+    <div class="right-line"></div>
+</div>
+<ul class="zixun">
+    <li><a href="javascript:;"><img src="img/zixun1.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/zixun2.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/zixun3.webp" alt=""></a></li>
+</ul>
+<!-- 品牌资讯结束 -->
+<!-- 益达广告开始 -->
+<div class="yida">
+    <a href="javascript:;">
+        <img src="img/yida.webp" alt="">
+    </a>
+</div>
+<!-- 益达广告结束 -->
+<!-- 便捷生活开始 -->
+<div class="floor-title" id="bianjie">
+    <div class="left-line"></div>
+    <img src="img/bianjie.webp" alt="">
+    <span>便捷生活</span>
+    <div class="right-line"></div>
+</div>
+<ul class="bianjie">
+    <li class="left"><a href="javascript:;"><img src="img/bianjie1.webp" alt=""></a></li>
+    <li class="right">
+        <div><a href="javascript:;"><img src="img/bianjie2.webp" alt=""></a></div>
+        <div><a href="javascript:;"><img src="img/bianjie3.webp" alt=""></a></div>
+    </li>
+</ul>
+<!-- 便捷生活结束 -->
+<!-- 国际海购开始 -->
+<div class="floor-title" id="haigou">
+    <div class="left-line"></div>
+    <img src="img/haigou.webp" alt="">
+    <span>国际海购</span>
+    <div class="right-line"></div>
+</div>
+<ul class="haigou">
+    <li><a href="javascript:;"><img src="img/haigou1.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/haigou2.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/haigou3.webp" alt=""></a></li>
+</ul>
+<!-- 国际海购结束 -->
+<!-- 精选市场开始 -->
+<div class="floor-title" id="shichang">
+    <div class="left-line"></div>
+    <img src="img/shichang.webp" alt="">
+    <span>精选市场</span>
+    <div class="right-line"></div>
+</div>
+<ul class="shichang-top">
+    <li><a href="javascript:;"><img src="img/shichang1.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/shichang2.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/shichang3.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/shichang4.webp" alt=""></a></li>
+</ul>
+<ul class="shichang-btm">
+    <li><a href="javascript:;"><img src="img/shichang5.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/shichang6.webp" alt=""></a></li>
+</ul>
+<!-- 精选市场结束 -->
+<!-- 爱生活开始 -->
+<div class="floor-title" id="aishenghuo">
+    <div class="left-line"></div>
+    <img src="img/aishenghuo.webp" alt="">
+    <span>爱生活</span>
+    <div class="right-line"></div>
+</div>
+<ul class="aishenghuo">
+    <li><a href="javascript:;"><img src="img/aishenghuo1.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/aishenghuo2.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/aishenghuo3.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/aishenghuo4.webp" alt=""></a></li>
+</ul>
+<!-- 爱生活结束 -->
+<!-- 潮流酷玩开始 -->
+<div class="floor-title" id="kuwan">
+    <div class="left-line"></div>
+    <img src="img/kuwan.webp" alt="">
+    <span>潮流酷玩</span>
+    <div class="right-line"></div>
+</div>
+<ul class="kuwan">
+    <li><a href="javascript:;"><img src="img/kuwan1.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/kuwan2.webp" alt=""></a></li>
+    <li><a href="javascript:;"><img src="img/kuwan3.webp" alt=""></a></li>
+</ul>
+<!-- 潮流酷玩结束 -->
+<!-- 热门行业开始 -->
+<div class="floor-title" id="hangye">
+    <div class="left-line"></div>
+    <img src="img/hangye.webp" alt="">
+    <span>热门行业</span>
+    <div class="right-line"></div>
+</div>
+<ul class="hangye-top">
+    <li>
+        <a href="javascript:;">
+            <div class="left">
+                <div class="title">电器城</div>
+                <div class="sub-title">十点抢券</div>
+                <img src="img/hangye1.webp" alt="">
+            </div>
+            <div class="right">
+                <img src="img/hangye2.webp" alt="">
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="left">
+                <div class="title">男女鞋</div>
+                <div class="sub-title">品牌潮流精选</div>
+                <img src="img/hangye3.webp" alt="">
+            </div>
+            <div class="right">
+                <img src="img/hangye4.webp" alt="">
+            </div>
+        </a>
+    </li>
+</ul>
+<ul class="hangye-btm">
+    <li>
+        <a href="javascript:;">
+            <div class="title">美妆</div>
+            <div class="sub-title">爱美必备</div>
+            <img src="img/hangye5.webp" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">天猫男装</div>
+            <div class="sub-title">潮流品质之选</div>
+            <img src="img/hangye6.webp" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">天猫家装</div>
+            <div class="sub-title">打造甜蜜家</div>
+            <img src="img/hangye7.webp" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">母婴玩具</div>
+            <div class="sub-title">精选大牌尖货</div>
+            <img src="img/hangye8.webp" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">美酒美食</div>
+            <div class="sub-title">新品抢先尝</div>
+            <img src="img/hangye9.webp" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">天猫女装</div>
+            <div class="sub-title">精选好货</div>
+            <img src="img/hangye10.webp" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">家纺家饰</div>
+            <div class="sub-title">温暖宜家</div>
+            <img src="img/hangye11.webp" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">更多</div>
+            <div class="sub-title">聪明如你</div>
+            <img src="img/hangye12.webp" alt="">
+        </a>
+    </li>
+</ul>
+<!-- 热门行业结束 -->
+<!-- 品牌旗舰开始 -->
+<div class="floor-title" id="qijian">
+    <div class="left-line"></div>
+    <img src="img/qijian.webp" alt="">
+    <span>品牌旗舰</span>
+    <div class="right-line"></div>
+</div>
+<ul class="qijian">
+    <li>
+        <a href="javascript:;">
+            <div class="top">
+                <div class="top-left">
+                    <img src="img/qijian1.webp" alt="">
+                </div>
+                <div class="top-right">
+                    <img src="img/qijian2.webp" alt="">
+                    <img src="img/qijian3.webp" alt="">
+                </div>
+            </div>
+            <div class="btm">
+                <img src="img/qijian4.webp" alt="">
+                <div>
+                    <span class="title">浪莎官方旗舰店</span>
+                    <span class="sub-title">102.5 万粉丝</span>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="top">
+                <div class="top-left">
+                    <img src="img/qijian5.webp" alt="">
+                </div>
+                <div class="top-right">
+                    <img src="img/qijian6.webp" alt="">
+                    <img src="img/qijian7.webp" alt="">
+                </div>
+            </div>
+            <div class="btm">
+                <img src="img/qijian8.webp" alt="">
+                <div>
+                    <span class="title">金佰利商用官方旗舰店</span>
+                    <span class="sub-title">1.8 万粉丝</span>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="top">
+                <div class="top-left">
+                    <img src="img/qijian9.webp" alt="">
+                </div>
+                <div class="top-right">
+                    <img src="img/qijian10.webp" alt="">
+                    <img src="img/qijian11.webp" alt="">
+                </div>
+            </div>
+            <div class="btm">
+                <img src="img/qijian12.webp" alt="">
+                <div>
+                    <span class="title">罗尼西手表官方旗舰店</span>
+                    <span class="sub-title">35.0 万粉丝</span>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="top">
+                <div class="top-left">
+                    <img src="img/qijian13.webp" alt="">
+                </div>
+                <div class="top-right">
+                    <img src="img/qijian14.webp" alt="">
+                    <img src="img/qijian15.webp" alt="">
+                </div>
+            </div>
+            <div class="btm">
+                <img src="img/qijian16.webp" alt="">
+                <div>
+                    <span class="title">倾国倾城官方旗舰店</span>
+                    <span class="sub-title">5177 万粉丝</span>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+<ul class="qijian-btm">
+    <li>
+        <a href="javascript:;">
+            <div class="title">春夏必搭</div>
+            <div class="sub-title">气质首选</div>
+            <img src="img/qijian17.webp" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">仙妻靓鞋</div>
+            <div class="sub-title">潮妈潮童</div>
+            <img src="img/qijian18.webp" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">踏青必备</div>
+            <div class="sub-title">不负春光</div>
+            <img src="img/qijian19.webp" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <div class="title">摄影达人</div>
+            <div class="sub-title">记录美好瞬间</div>
+            <img src="img/qijian20.webp" alt="">
+        </a>
+    </li>
+</ul>
+<!-- 品牌旗舰结束 -->
+<div class="tab-cover">
+    <p>点击此处返回</p>
+</div>
+<div class="tab-header">
+    <h1>全部分类</h1>
+</div>
+<div class="tab-content">
+    <div class="tab-clone show">为您推荐</div>
+    <div class="tab-clone">国际大牌</div>
+    <div class="tab-clone">天猫国际</div>
+    <div class="tab-clone">女装</div>
+    <div class="tab-clone">女鞋</div>
+    <div class="tab-clone">男装</div>
+    <div class="tab-clone">男鞋</div>
+    <div class="tab-clone">内衣</div>
+    <div class="tab-clone">母婴</div>
+    <div class="tab-clone">手机</div>
+    <div class="tab-clone">数码</div>
+    <div class="tab-clone">家电</div>
+    <div class="tab-menu">
+        <ul class="tab-ul">
+            <li class="tab-li active">
+                <div class="tab-list">
+                    <h2>为您推荐</h2>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c1.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">手机配件</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c2.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">圆头鞋</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c3.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">笔记本</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c4.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">官方直售</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c5.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">床</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c6.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">平底单鞋</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li active">
+                <div class="tab-list">
+                    <h2>数码</h2>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c7.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">DIY电脑</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c8.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">平板电脑</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c9.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">移动电源</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c10.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">办公设备</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c11.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">键盘</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c12.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">笔记本配件</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li active">
+                <div class="tab-list">
+                    <h2>母婴</h2>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c13.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">孕妈装/裤</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c14.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">毛衣/针织衫</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c15.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">婴儿床/摇篮</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c16.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">靴子/雪地靴</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c17.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">皮鞋</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="tab-img">
+                                    <img src="./img/c18.webp" style="width:0.68rem;height:0.68rem" alt="">
+                                </div>
+                                <p class="tab-desc">孕妈洗护护肤</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<script src="js/swiper.min.js"></script>
+<script>
+    var hostBanner = new Swiper('#host-banner', {
+        direction: 'horizontal',
+        loop: false,
+        pagination: '.swiper-pagination',
+        autoplay: 2000,
+    })
+    var brand = new Swiper('#brand', {
+        direction: 'vertical',
+        loop: true,
+    })
+    var recommend = new Swiper('#recommend', {
+        direction: 'horizontal',
+        loop: false,
+        slidesPerView: 2
+    })
+</script>
+</body>
+</html>
+<script src="js/swiper.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
